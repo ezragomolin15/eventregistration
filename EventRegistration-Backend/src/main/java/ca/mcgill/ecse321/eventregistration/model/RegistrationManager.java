@@ -7,9 +7,15 @@ package ca.mcgill.ecse321.eventregistration.model;
 import java.util.*;
 import java.sql.Date;
 import java.sql.Time;
+import javax.persistence.Id;
+import javax.persistence.CascadeType;
+import javax.persistence.OneToMany;
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
 
 // line 20 "model.ump"
 // line 63 "model.ump"
+@Entity
 public class RegistrationManager
 {
 
